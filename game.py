@@ -1,4 +1,8 @@
+#The functional programming way to code a game , chose this method as too many conditionals make the code look clumsy.
+#Still a work in progress.
+
 import time
+
 import PIL
 print("Welcome to my first game")
 health = 100
