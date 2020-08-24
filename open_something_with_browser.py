@@ -1,6 +1,7 @@
 import webbrowser
 
 def openSomething(link):
+	'''opens a link'''
 	try:
 		url = f"www.{str(link.lower())}.com"#formats to a typical  address
 		if "http" in link:#if complete link is provided
