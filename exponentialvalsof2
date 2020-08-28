@@ -1,0 +1,13 @@
+# Change this value for a different result
+#terms = 10
+
+terms = int(input("How many terms? "))
+
+# use anonymous function
+result = list(map(lambda x: 2 ** x, range(terms+1)))
+
+# display the result
+
+print("The total terms is:",terms)
+for i in range(terms+1):#range function ignores the last  value.
+   print("2 raised to power",i,"is",result[i])
