@@ -1,9 +1,16 @@
+
+
 #recursive approach to find factorial.
-def factorial(num = int(input("Enter a number for the factorial."):
+def factorial(num):
     if num == 1:
         return 1
     else:
-        return(num*factorial(num-1)
-        
+        return (num*factorial(num-1))
 
-print(factorial())
+number  = int(input("Enter a number for factorial.\t"))
+
+print(factorial(number))
+
+   
+
+
